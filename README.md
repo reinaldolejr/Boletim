@@ -1,8 +1,8 @@
-# beckend
+# BACKEND
 API para um aplicativo ou site de boletim
 
-# web
+# WEB
 Site o web do boletim
 
-# mobile
+# MOBILE
 Aplicativo do boletim
