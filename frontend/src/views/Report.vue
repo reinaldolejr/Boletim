@@ -5,7 +5,7 @@
         <div class="d-flex align-center mb-2">
           <div class="headline font-weight-black">Novo Boletim</div>
           <v-spacer></v-spacer>
-          <v-btn color="primary" large class @click="save">salvar</v-btn>
+          <v-btn color="primary" large class @click="save" id="btn-save">salvar</v-btn>
         </div>
         <v-card>
           <v-card-text>
@@ -26,7 +26,7 @@
         <div class="d-flex mt-3 align-center">
           <div class="title">ALUNOS</div>
           <v-spacer></v-spacer>
-          <v-btn dark color="black" icon large class @click="newItem">
+          <v-btn dark color="black" icon large class @click="newItem" id="btn-add">
             <v-icon>mdi-account-plus</v-icon>
           </v-btn>
         </div>
@@ -62,8 +62,8 @@
         <v-card-text>
           <p>O codigo para acessar as notas da turma é:</p>
           <p>
-            {{this.code}}
-            <v-btn dark color="black" icon large @click="doCopy" ref="container">
+            <span id="code">{{this.code}}</span>
+            <v-btn dark color="black" icon large @click="doCopy" ref="container" id="btn-copy">
               <v-icon>mdi-content-copy</v-icon>
             </v-btn>
           </p>
