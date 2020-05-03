@@ -80,6 +80,18 @@ describe('create a report card', () => {
             .expect(200);
 
         expect(responsereportCard.body).toEqual(expect.any(Array));
+
+        const arrayExpect = [{
+            matter: "Matematica",
+            className: "501"
+        },
+        {
+            matter: "Portugues",
+            className: "501"
+        }];
+        
+        expect(responsereportCard.body).toMatchObject(arrayExpect);
+        expect(responsereportCard.body.some(x => x.code)).toEqual(false);
         expect(responsereportCard.body.length).toEqual(2);
 
     });
