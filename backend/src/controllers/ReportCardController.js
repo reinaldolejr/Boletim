@@ -29,7 +29,8 @@ module.exports = {
     },
 
     async getAll(req, res) {
-        const reportCards = await connection('reportCards').select('*');
+        const reportCards = await connection('reportCards')
+            .select('matter', 'className');
         return res.json(reportCards);
     },
 
