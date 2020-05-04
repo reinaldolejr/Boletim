@@ -80,7 +80,6 @@
 
 <script>
 import AwesomeMask from "awesome-mask";
-// import VueClipboards from "vue-clipboards";
 import { mapActions, mapGetters } from "vuex";
 
 export default {
