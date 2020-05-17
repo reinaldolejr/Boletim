@@ -5,6 +5,10 @@
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/reinaldolejr/Boletim.svg">
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/reinaldolejr/Boletim.svg">
+
+  <a href="https://app.codacy.com/manual/reinaldolejr/Boletim?utm_source=github.com&utm_medium=referral&utm_content=reinaldolejr/Boletim&utm_campaign=Badge_Grade_Dashboard">
+    <img alt="Codacy grade" src="https://api.codacy.com/project/badge/Grade/46db4531e34c4759b8a215745f788ec9">
+  </a>
   
   <a href="https://github.com/reinaldolejr/Boletim/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/reinaldolejr/Boletim.svg">
@@ -18,7 +22,7 @@
 
 # BACKEND
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/46db4531e34c4759b8a215745f788ec9)](https://app.codacy.com/manual/reinaldolejr/Boletim?utm_source=github.com&utm_medium=referral&utm_content=reinaldolejr/Boletim&utm_campaign=Badge_Grade_Dashboard)
+
 
 API para um aplicativo ou site de boletim
 - desenvolvido em nodejs
