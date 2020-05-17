@@ -1,3 +1,21 @@
+
+<p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/reinaldolejr/Boletim.svg">
+
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/reinaldolejr/Boletim.svg">
+
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/reinaldolejr/Boletim.svg">
+  
+  <a href="https://github.com/reinaldolejr/Boletim/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/reinaldolejr/Boletim.svg">
+  </a>
+
+  <a href="https://github.com/reinaldolejr/Boletim/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/reinaldolejr/Boletim.svg">
+  </a>
+
+</p>
+
 # BACKEND
 API para um aplicativo ou site de boletim
 - desenvolvido em nodejs
