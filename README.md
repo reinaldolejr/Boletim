@@ -17,6 +17,9 @@
 </p>
 
 # BACKEND
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/46db4531e34c4759b8a215745f788ec9)](https://app.codacy.com/manual/reinaldolejr/Boletim?utm_source=github.com&utm_medium=referral&utm_content=reinaldolejr/Boletim&utm_campaign=Badge_Grade_Dashboard)
+
 API para um aplicativo ou site de boletim
 - desenvolvido em nodejs
 
