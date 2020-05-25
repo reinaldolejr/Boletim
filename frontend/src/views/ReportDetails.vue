@@ -1,9 +1,6 @@
 <template>
   <div>
     <v-container>
-      <!-- <div class="d-flex align-center mb-2">
-        <div class="headline font-weight-black">Boletim</div>
-      </div> -->
       <v-card>
         <v-card-text>
           <v-row>
