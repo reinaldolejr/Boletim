@@ -7,7 +7,6 @@ import {
   Image,
   TouchableOpacity,
   Text,
-  SafeAreaView,
   StatusBar
 } from 'react-native';
 
@@ -16,55 +15,47 @@ import logoImg from "../assets/imgMain.jpg";
 
 const Home = ({ navigation }) => {
   return (
-    <SafeAreaView >
-      <StatusBar barStyle="light-content"  />
-      <ScrollView
+    < >
+      <StatusBar barStyle="light-content" />
+      <View
         contentInsetAdjustmentBehavior="automatic"
-        style={styles.scrollView}>
-        <View style={styles.body}>
-          <Image source={logoImg} style={styles.imageMain} />
-          <View style={{ marginTop: 50 }}>
+        style={styles.body}>
+        <Image source={logoImg} style={styles.imageMain} />
+        <View style={styles.viewButtons}>
+          <TouchableOpacity
+            style={styles.btnDefault}
+            onPress={() => navigation.navigate('SaveReport')}
+          >
+            <Text style={styles.btnDefaultText}>Novo Boletim</Text>
+          </TouchableOpacity>
 
-
-            <TouchableOpacity
-              style={styles.btnDefault}
-              onPress={() => navigation.navigate('SaveReport')}
-            >
-              <Text style={styles.btnDefaultText}>Novo Boletim</Text>
-            </TouchableOpacity>
-
-            <TouchableOpacity
-              style={styles.btnDefault}
-              onPress={() => navigation.navigate('ReportDetails',
-                {
-                  name: "teste",
-                })}
-            >
-              <Text style={styles.btnDefaultText}>Buscar Boletim</Text>
-            </TouchableOpacity>
-          </View>
+          <TouchableOpacity
+            style={styles.btnDefault}
+            onPress={() => navigation.navigate('ReportDetails',
+              {
+                name: "teste",
+              })}
+          >
+            <Text style={styles.btnDefaultText}>Buscar Boletim</Text>
+          </TouchableOpacity>
         </View>
-      </ScrollView>
-    </SafeAreaView>
+      </View>
+    </>
   );
 };
 
 const styles = StyleSheet.create({
 
-  scrollView: {
-    backgroundColor: "#fff",
-  },
   body: {
     backgroundColor: "#fff",
   },
+  viewButtons: {
+    marginTop: 30
+  },
   imageMain: {
     width: '100%',
-    height: 400,
+    height: 500,
     resizeMode: 'stretch'
-  },
-  btnDefault: {
-    backgroundColor: '#1E6738',
-    marginTop: 100
   },
   btnDefault: {
     marginRight: 40,
